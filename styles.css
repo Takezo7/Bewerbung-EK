@@ -63,7 +63,7 @@ p {
 
 @media (max-width: 1300px) {
     .button {
-        height: 42vh;
+        height: 45vh;
         color: black;
     }
     body {
@@ -75,7 +75,7 @@ p {
 
 @media (max-width: 800px) {
     .button {
-        height: 29vh;
+        height: 30vh;
         color: black;
     }
     body {
