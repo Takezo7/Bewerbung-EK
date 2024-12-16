@@ -60,7 +60,7 @@ p {
 .button:hover {
     box-shadow: inset 2px 2px 5px #00ffff, inset -2px -2px 5px #00ffff, 2px 2px 5px #00ffff, -2px -2px 5px #00ffff;
 }
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 1200px) {
     body{
 
         width: 100vw;
