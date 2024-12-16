@@ -1,3 +1,22 @@
+@media (min-width: 320px) {
+    
+    .button {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(117, 117, 117);
+        height:20vh;
+        cursor:pointer;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 50px;
+        margin:0rem;
+        width: 4vw;
+        text-align: center;
+    }
+    
+    .button:hover {
+        box-shadow: inset 2px 2px 5px #00ffff, inset -2px -2px 5px #00ffff, 2px 2px 5px #00ffff, -2px -2px 5px #00ffff;
+    }
+
+}
 
 body{
 
@@ -59,23 +78,4 @@ p {
 
 .button:hover {
     box-shadow: inset 2px 2px 5px #00ffff, inset -2px -2px 5px #00ffff, 2px 2px 5px #00ffff, -2px -2px 5px #00ffff;
-}
-@media screen and (min-width: 1200px) {
-    
-    .button {
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: rgb(117, 117, 117);
-        height:10vh;
-        cursor:pointer;
-        border: 2px solid rgb(255, 255, 255);
-        border-radius: 50px;
-        margin:0rem;
-        width: 4vw;
-        text-align: center;
-    }
-    
-    .button:hover {
-        box-shadow: inset 2px 2px 5px #00ffff, inset -2px -2px 5px #00ffff, 2px 2px 5px #00ffff, -2px -2px 5px #00ffff;
-    }
-
 }
