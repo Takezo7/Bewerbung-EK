@@ -59,4 +59,68 @@ p {
 .button:hover {
     box-shadow: inset 2px 2px 5px #00ffff, inset -2px -2px 5px #00ffff, 2px 2px 5px #00ffff, -2px -2px 5px #00ffff;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
 
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        margin: 0rem;
+        overflow: hidden;
+    }
+    
+    #image-track > .image {
+        width: 40vmin;
+        height: 56vmin;
+        object-fit: cover;
+        object-position: center;
+        
+    }
+    
+    #image-track {
+        display: flex;
+        gap: 4vmin;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(0%, -50%);
+        user-select: none;
+    
+      
+    }
+    
+    h1 {
+        text-align: center;
+        color:rgb(230, 230, 230);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    
+    h3 {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.308);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    p {
+        color:rgb(58, 58, 58);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .button {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(117, 117, 117);
+        height:20vh;
+        cursor:pointer;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 50px;
+        margin:0rem;
+        width: 4vw;
+        text-align: center;
+    }
+    
+    .button:hover {
+        box-shadow: inset 2px 2px 5px #00ffff, inset -2px -2px 5px #00ffff, 2px 2px 5px #00ffff, -2px -2px 5px #00ffff;
+    }
+
+}
