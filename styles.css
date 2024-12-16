@@ -75,7 +75,7 @@ p {
 
 @media (max-width: 800px) {
     .button {
-        height: 30vh;
+        height: 29vh;
         color: black;
     }
     body {
