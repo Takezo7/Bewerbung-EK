@@ -64,17 +64,29 @@ p {
     .button {
         height: 56vh;
     }
-
+    body {
+        margin: 0rem;
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 1100px) {
     .button {
         height: 48vh;
     }
+    body {
+        margin: 0rem;
+        overflow: hidden;
+    }
 }
+
 
 @media (max-width: 800px) {
     .button {
         height: 32vh;
+    }
+    body {
+        margin: 0rem;
+        overflow: hidden;
     }
 }
