@@ -48,7 +48,7 @@ p {
 .button {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(117, 117, 117);
-    height:70vh;
+    height:56vh;
     cursor:pointer;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 50px;
@@ -60,20 +60,10 @@ p {
     box-shadow: inset 2px 2px 5px #00ffff, inset -2px -2px 5px #00ffff, 2px 2px 5px #00ffff, -2px -2px 5px #00ffff;
 }
 
+
 @media (max-width: 1500px) {
     .button {
-        height: 56vh;
-        color: black;
-    }
-    body {
-        margin: 0rem;
-        overflow: hidden;
-    }
-}
-
-@media (max-width: 1300px) {
-    .button {
-        height: 20vh;
+        height: 42vh;
         color: black;
     }
     body {
