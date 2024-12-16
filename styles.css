@@ -60,9 +60,21 @@ p {
     box-shadow: inset 2px 2px 5px #00ffff, inset -2px -2px 5px #00ffff, 2px 2px 5px #00ffff, -2px -2px 5px #00ffff;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1500px) {
     .button {
-        height: 28vh;
+        height: 56vh;
     }
 
+}
+
+@media (max-width: 1100px) {
+    .button {
+        height: 48vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .button {
+        height: 32vh;
+    }
 }
