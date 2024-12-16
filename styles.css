@@ -62,7 +62,7 @@ p {
 
 @media (max-width: 800px) {
     .button {
-        height: 5px;
+        height: 45vh;
     }
 
 }
